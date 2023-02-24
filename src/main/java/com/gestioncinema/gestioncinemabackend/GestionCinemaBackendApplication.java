@@ -14,6 +14,8 @@ public class GestionCinemaBackendApplication implements CommandLineRunner{
 
 	@Autowired
 	private ICinemaInitService iCinemaInitService;
+	
+	//ajouter l'id à film
 	@Autowired
 	private RepositoryRestConfiguration restConfiguration;
 	
